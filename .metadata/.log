@@ -1,0 +1,56 @@
+
+!ENTRY org.eclipse.core.resources 4 1 2012-05-30 22:57:29.921
+!MESSAGE Des erreurs se sont produites lors de l'actualisation des modifications locales
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2012-05-30 22:57:29.921
+!MESSAGE Des erreurs se sont produites lors de l'actualisation des modifications locales
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Erreurs lors de l'actualisation des ressources avec le système de fichiers local.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:923)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:904)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1657)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:167)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Le fichier de description de projet (.project) pour 'testbinaire' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+!SUBENTRY 2 org.eclipse.core.resources 4 271 2012-05-30 22:57:29.968
+!MESSAGE Erreurs lors de l'actualisation des ressources avec le système de fichiers local.
+!SUBENTRY 3 org.eclipse.core.resources 4 567 2012-05-30 22:57:29.968
+!MESSAGE Le fichier de description de projet (.project) pour 'testbinaire' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+
+!ENTRY org.eclipse.core.resources 4 1 2012-05-30 22:57:30.500
+!MESSAGE Des erreurs se sont produites lors de l'actualisation des modifications locales
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2012-05-30 22:57:30.500
+!MESSAGE Des erreurs se sont produites lors de l'actualisation des modifications locales
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Erreurs lors de l'actualisation des ressources avec le système de fichiers local.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:923)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:904)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1657)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:167)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Le fichier de description de projet (.project) pour 'test' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+!SUBENTRY 2 org.eclipse.core.resources 4 271 2012-05-30 22:57:30.500
+!MESSAGE Erreurs lors de l'actualisation des ressources avec le système de fichiers local.
+!SUBENTRY 3 org.eclipse.core.resources 4 567 2012-05-30 22:57:30.500
+!MESSAGE Le fichier de description de projet (.project) pour 'test' est manquant.  Ce fichier contient des informations importantes sur le projet.  Le projet ne fonctionnera pas correctement tant que ce fichier n'aura pas été restauré.
+
+!ENTRY com.adobe.flexbuilder.project 4 43 2012-05-30 22:57:36.093
+!MESSAGE Avoiding non-existent source container src while figuring out files to copy to output folder.
+!STACK 0
+java.lang.Exception
+	at com.adobe.flexbuilder.project.compiler.internal.BuilderUtils.copyDependents(BuilderUtils.java:494)
+	at com.adobe.flexbuilder.project.compiler.internal.FlexProjectBuilder.build(FlexProjectBuilder.java:425)
+	at com.adobe.flexbuilder.project.compiler.internal.FlexIncrementalBuilder.build(FlexIncrementalBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
